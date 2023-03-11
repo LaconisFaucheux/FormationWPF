@@ -1,0 +1,16 @@
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\bin\Debug\FormationWPF.exe.config
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\bin\Debug\FormationWPF.exe
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\bin\Debug\FormationWPF.pdb
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.csproj.AssemblyReference.cache
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\App.g.cs
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF_MarkupCompile.cache
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF_MarkupCompile.lref
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\MainWindow.baml
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.g.resources
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.Properties.Resources.resources
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.csproj.GenerateResource.cache
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.csproj.CoreCompileInputs.cache
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.exe
+C:\Users\Lacon\Desktop\DEVELOPPEMENT\WPF\FormationWPF\FormationWPF\obj\Debug\FormationWPF.pdb
