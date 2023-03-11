@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FormationWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="500">
+        Title="MainWindow" Height="500" Width="500">
     <Grid>
-        <TextBlock x:Name="myTextBlock" TextWrapping="WrapWithOverflow">
+        <TextBlock x:Name="myTextBlock" TextWrapping="Wrap">
             Hello World!
             <LineBreak/>
-            Please go check my <Span Foreground="DarkOliveGreen">portfolio</Span> at <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="http://www.nicolasfrotey.fr">this adress</Hyperlink>!
+            Please go check my <Span Foreground="DarkOliveGreen">portfolio</Span> at <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="http://www.nicolasfrotey.fr">this address</Hyperlink>!
         </TextBlock>
     </Grid>
 </Window>

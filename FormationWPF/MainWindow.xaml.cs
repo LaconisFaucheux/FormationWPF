@@ -22,8 +22,21 @@ namespace FormationWPF
     {
         public MainWindow()
         {            
-            InitializeComponent();           
+            InitializeComponent();
             myTextBlock.Foreground = Brushes.Red;
+            myTextBlock.FontSize = 50;
+
+            TextBlock myTB = new TextBlock();
+            myTB.Text = "Hello World! ";
+            myTB.Inlines.Add("New text with Inlines!");
+            myTB.TextWrapping = TextWrapping.Wrap;
+            myTB.Foreground = Brushes.Coral;
+
+            //TextBlock[] contentArray = new TextBlock[] { myTextBlock, myTB };
+            this.Content = myTB;
+
+
+
         }
 
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
