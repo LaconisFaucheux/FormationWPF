@@ -21,9 +21,14 @@ namespace FormationWPF
     public partial class MainWindow : Window
     {
         public MainWindow()
+        {            
+            InitializeComponent();           
+            myTextBlock.Foreground = Brushes.Red;
+        }
+
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
-            InitializeComponent();
-            myButton.FontSize= 50.5;
+            System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
         }
     }
 }
