@@ -23,25 +23,29 @@ namespace FormationWPF
         public MainWindow()
         {            
             InitializeComponent();
-            myTextBlock.Foreground = Brushes.Red;
-            myTextBlock.FontSize = 50;
-
-            TextBlock myTB = new TextBlock();
-            myTB.Text = "Hello World! ";
-            myTB.Inlines.Add("New text with Inlines!");
-            myTB.TextWrapping = TextWrapping.Wrap;
-            myTB.Foreground = Brushes.Coral;
-
-            //TextBlock[] contentArray = new TextBlock[] { myTextBlock, myTB };
-            this.Content = myTB;
-
-
-
         }
 
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
+        }
+
+        private void myButton_Click(object sender, RoutedEventArgs e)
+        {
+            myLabel.Foreground = Brushes.Peru;
+            myLabel.FontSize += 1;
+        }
+
+        private void myButton_MouseEnter(object sender, MouseEventArgs e)
+        {
+            myButton.Height += 5;
+            myButton.Width += 5;
+        }
+
+        private void myButton_MouseLeave(object sender, MouseEventArgs e)
+        {
+            myButton.Height -= 5;
+            myButton.Width -= 5;
         }
     }
 }

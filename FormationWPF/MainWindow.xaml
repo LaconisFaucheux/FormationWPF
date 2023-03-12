@@ -6,11 +6,40 @@
         xmlns:local="clr-namespace:FormationWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="500">
-    <Grid>
+    <StackPanel>
         <TextBlock x:Name="myTextBlock" TextWrapping="Wrap">
             Hello World!
             <LineBreak/>
             Please go check my <Span Foreground="DarkOliveGreen">portfolio</Span> at <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="http://www.nicolasfrotey.fr">this address</Hyperlink>!
         </TextBlock>
-    </Grid>
+        <Label Margin="16, 16, 16, 0"
+               BorderThickness ="1"
+               BorderBrush="Black"
+               >
+            <StackPanel Orientation="Horizontal">
+                <Image Width="300" Source="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" />
+                <AccessText FontSize="15" Text="A weird eye with weird stuff"></AccessText>
+            </StackPanel>
+        </Label>
+        <TextBox 
+            FontSize="32" 
+            Margin="16"
+            AcceptsReturn="True"
+            TextWrapping="Wrap"
+            SpellCheck.IsEnabled="True"
+            Language="fr-FR"
+            Background="Beige"
+            Foreground="Blue"
+            Text="This is a placeholder"
+        ></TextBox>
+        <StackPanel>
+            <Button x:Name="myButton" Width="100" Height="50" FontSize="20" 
+                    Click="myButton_Click"
+                    MouseEnter="myButton_MouseEnter"
+                    MouseLeave="myButton_MouseLeave">Click Me!
+            </Button>
+            <Label Name="myLabel" FontSize="30">Hello World!</Label>
+        </StackPanel>
+    </StackPanel>
+
 </Window>
